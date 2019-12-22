@@ -1,0 +1,54 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "usage",
+            "corejs": { "version": 3.5, "proposals": true },
+            "debug": true,
+            "targets": {
+              "android": "4.0",
+              "safari": "6.0",
+              "chrome": "1",
+              "firefox": "2",
+              "edge": "12",
+              "ie": "9",
+              "ios": "6"
+            }
+          }
+        ],
+        ["@babel/preset-react", { "development": true }],
+        "@babel/preset-typescript"
+      ]
+    },
+    "production": {
+      "presets": [
+        "babel-preset-minify",
+        [
+          "@babel/preset-env",
+          {
+            "useBuiltIns": "usage",
+            "corejs": { "version": 3.5, "proposals": true },
+            "targets": {
+              "android": "4.0",
+              "safari": "6.0",
+              "chrome": "1",
+              "firefox": "2",
+              "edge": "12",
+              "ie": "9",
+              "ios": "6"
+            }
+          }
+        ],
+        "@babel/preset-react",
+        "@babel/preset-typescript"
+      ]
+    }
+  },
+  "plugins": [
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-syntax-object-rest-spread"
+  ]
+}
