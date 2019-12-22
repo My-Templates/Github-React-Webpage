@@ -8,8 +8,6 @@ Configure your repository to show docs folder
 
 ![GitHub Pages Configuration][githubpagesconfig]
 
-[githubpagesconfig]: ./images/GitHubPagesConfig.png
-
 ## Scenarios
 
 `npm start` — Starts the project in browser
@@ -28,6 +26,9 @@ Configure your repository to show docs folder
 
 ## Rights and Agreements
 
-License [Apache-2.0](https://github.com/lopatnov/jsToString/blob/master/LICENSE)
+License [Apache-2.0][lecense]
 
 Copyright 2019 O.Lopatnov
+
+[license]: https://github.com/My-Templates/Github-React-Webpage/blob/master/LICENSE
+[githubpagesconfig]: ./images/GitHubPagesConfig.png
