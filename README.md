@@ -1,6 +1,6 @@
 # GitHub Webpage Template
 
-The GitHub React based website.
+The React based website for GitHub Pages.
 
 ## Configuration
 
