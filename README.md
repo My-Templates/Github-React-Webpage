@@ -26,7 +26,7 @@ Configure your repository to show docs folder
 
 ## Rights and Agreements
 
-License [Apache-2.0][lecense]
+License [Apache-2.0][license]
 
 Copyright 2019 O.Lopatnov
 
