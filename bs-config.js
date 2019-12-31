@@ -26,11 +26,15 @@ module.exports = {
     "watchOptions": {
         "ignoreInitial": true
     },
-    "server": false,
+    "server": {
+        routes: {
+            "/Github-React-Webpage": "docs"
+        }
+    },
     "proxy": false,
     "port": 3000,
     "middleware": false,
-    "serveStatic": ["./**/**"],
+    "serveStatic": false,
     "ghostMode": {
         "clicks": true,
         "scroll": true,
@@ -64,7 +68,7 @@ module.exports = {
     "reloadThrottle": 0,
     "plugins": [],
     "injectChanges": true,
-    "startPath": null,
+    "startPath": "/Github-React-Webpage",
     "minify": true,
     "host": null,
     "localOnly": false,

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Веб-сторінка опису організації",
   "scripts": {
-    "start": "browser-sync start --server --ss docs",
+    "start": "browser-sync start --config bs-config.js",
     "build": "npm run clean && npm run configure && npm run build:prd",
     "build:dev": "webpack --mode development",
     "build:prd": "webpack --mode production -p",
