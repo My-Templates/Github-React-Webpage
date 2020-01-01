@@ -2,6 +2,12 @@
 
 The React based website for GitHub Pages.
 
+## How to use
+
+Just click “Use this template” button and move by steps.
+
+![“Use this template” button][useTemplate]
+
 ## Configuration
 
 Configure your repository to show docs folder
@@ -32,3 +38,4 @@ Copyright 2019 O.Lopatnov
 
 [license]: https://github.com/My-Templates/Github-React-Webpage/blob/master/LICENSE
 [githubpagesconfig]: ./images/GitHubPagesConfig.png
+[useTemplate]: ./images/UseThisTemplate.png
