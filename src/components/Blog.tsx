@@ -98,7 +98,7 @@ export default function Blog(props: BlogProps) {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title={`Blog ${props.version}`} sections={sections} />
+        <Header title={`Github React Webpage Template ${props.version}`} sections={sections} />
         <div id="main">
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
