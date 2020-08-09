@@ -1,7 +1,7 @@
 {
-  "name": "hr-tools-about",
+  "name": "github-react-webpage",
   "version": "1.0.0",
-  "description": "Веб-сторінка опису організації",
+  "description": "GitHub React Webpage",
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
     "build": "npm run clean && npm run configure && npm run build:prd",
@@ -13,18 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HR-tools/About.git"
+    "url": "git+https://github.com/My-Templates/Github-React-Webpage.git"
   },
   "keywords": [
-    "hr",
-    "tools"
+    "github",
+    "react",
+    "website"
   ],
   "author": "lopatnov",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/HR-tools/About/issues"
+    "url": "https://github.com/My-Templates/Github-React-Webpage/issues"
   },
-  "homepage": "https://github.com/HR-tools/About#readme",
+  "homepage": "https://github.com/My-Templates/Github-React-Webpage#readme",
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
     "@material-ui/core": "^4.11.0",
