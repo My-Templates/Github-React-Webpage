@@ -33,7 +33,7 @@
     "@types/webpack": "^4.41.0",
     "core-js": "^3.5.0",
     "html5shiv": "^3.7.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "js-base64": "^2.5.1",
     "markdown-to-jsx": "^6.10.3",
     "react": "^16.12.0",
